@@ -1,0 +1,11 @@
+// Given some value a return whether or not the value is truthy.
+/* We can also use the logical NOT operator ! to convert boolean, flip the value, and ! again to flip it back. */
+
+function isTruthy(a) {
+    if(a)
+    return true;
+    else
+    return false;
+}
+
+module.exports = isTruthy;
